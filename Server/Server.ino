@@ -18,9 +18,14 @@
 const char WiFiAPPSK[] = "sparkfun";
 
 // colors
-const long COLOR_BUSY = 0xff0000; // 0xFA0005;
-const long COLOR_FEEDBACK = 0xffff00; // 0xDF2500;
-const long COLOR_AVAILABLE= 0x0000ff; // 0x4BC8C8;
+/* old colors
+  const long COLOR_BUSY = 0xff0000; // 0xFA0005;
+  const long COLOR_FEEDBACK = 0xffff00; // 0xDF2500;
+  const long COLOR_AVAILABLE= 0x0000ff; // 0x4BC8C8;
+ */
+const long COLOR_BUSY = 0xFA0005;
+const long COLOR_FEEDBACK = 0xDF2500;
+const long COLOR_AVAILABLE = 0x4BC8C8;
 const long COLOR_WHITE = 0xffffff;
 
 WiFiServer server(80);
