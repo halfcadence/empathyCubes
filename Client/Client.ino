@@ -4,7 +4,7 @@
 #include <Light.h>
 
 // 4DC4 is the current prod build
-const char* ssid = "ESP8266 Thing 43C9";
+const char* ssid = "ESP8266 Thing 154B";
 const char* password = "sparkfun";
 
 // cube num
