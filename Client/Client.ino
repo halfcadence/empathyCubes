@@ -30,7 +30,7 @@ float ypr[3];           // [yaw, pitch, roll]   yaw/pitch/roll container and gra
 //#define OUTPUT_READABLE_YAWPITCHROLL
 
 // 4DC4 is the current prod build
-const char* ssid = "ESP8266 Thing 154B";
+const char* ssid = "ESP8266 Thing 4DC4";
 const char* password = "sparkfun";
 
 // cube num
@@ -42,9 +42,9 @@ int accelGyroOffsets[6] = {-2648, 766, 1488, 193, 28,  15};
 enum Color {busy, feedback, avail, white};
 
 // colors
-const long COLOR_BUSY = 0xff0000;
-const long COLOR_FEEDBACK = 0xffff00;
-const long COLOR_AVAILABLE= 0x0000ff;
+const long COLOR_BUSY = 0xFA0005;
+const long COLOR_FEEDBACK = 0xDF2500;
+const long COLOR_AVAILABLE= 0x4BC8C8;
 const long COLOR_WHITE = 0xffffff;
 
 // rgb led
